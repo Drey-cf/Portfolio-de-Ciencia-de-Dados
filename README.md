@@ -2,7 +2,7 @@
 
 <h2>Sobre</h2>
 
-<p>Este repositório contêm meus projetos de Ciência de dados que realizei até momento. Um deles foi deito durante meu tcc, onde trabalhei com dados de exoplanetas. O outro notebook foi feito durante um bootcamp de ciencia de dados e foi desenvolvido com meu grupo de resolução de problemas da empresa Finor. Os dados são das principais commodities trocadas entre Brasil e outros países e fazemos a análise de quais são as principais commodities e os principais países parceiros do Brasil</p>
+<p>Este repositório contêm meus projetos de Ciência de dados que realizei até o momento. Um deles foi deito durante meu TCC, onde trabalhei com uma base de dados de exoplanetas. O outro projeto foi feito durante a disciplina de Séries Temporais e NLP, da minha Pós graduação. Nesse segundo projeto, realizo a predição de séries temporais usando diferentes modelos (Médias Móveis, RNN, Decision Tree, ARIMA e TCN). </p>
 
 ## Status
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
