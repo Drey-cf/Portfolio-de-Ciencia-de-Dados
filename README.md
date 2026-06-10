@@ -2,35 +2,10 @@
 
 <h2>Sobre</h2>
 
-<p>Este repositório contêm meus projetos de Ciência de dados que realizei até o momento. Um deles foi deito durante meu TCC, onde trabalhei com uma base de dados de exoplanetas. O outro projeto foi feito durante a disciplina de Séries Temporais e NLP, da minha Pós graduação. Nesse segundo projeto, realizo a predição de séries temporais usando diferentes modelos (Médias Móveis, RNN, Decision Tree, ARIMA e TCN). </p>
+<p>This repositoire contains the Data Science projects that I've finished at the moment. The 'Análise Exoplanetas.ipynb' was done during my graduation thesis, when I worked with a data base about exoplanets. 
+  The task was to build an end-to-end data pipeline to clear the database of over 5,000 objects and deploy statistical models to verify if the 3 Keplerian Laws apply in exoplanets context. For that I used Python (Pandas and NumPy) to clean and prepare the raw datasets, and also to calculate new columns and error propagations. Scikit-Learn was used to apply a Linear Regression and to validate the model. And to create clear data visualizations I imported Matplotlib and Seaborn.
+As some results, I graduated with an A grade. The study was published in a Qualis A1 journal [RBEF](https://doi.org/10.1590/1806-9126-RBEF-2025-0105).
 
-## Status
-![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
-
-## :hammer: Funcionalidades do projeto
-
-- `Funcionalidade 1`: desenvolver minhas habilidades e conhecimentos na área de dados
-- `Funcionalidade 2`: apresentar meus projetos e habilidades com a linguagem Python na Ciência de Dados
-
-## Languages e Tools 💻
-<div style="display: inline">
-  <img align="center" alt="python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img align="center" alt="sklearn" src="https://img.shields.io/badge/scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
-  <img align="center" alt="pandas" src="https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white" />
-  <img align="center" alt="numpy" src="https://img.shields.io/badge/Numpy-777BB4?style=for-the-badge&logo=numpy&logoColor=white" />
-  <img align="center" alt="jupyter" src="https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white" />
-</div><br/>
-
-<div>
-  <a href="https://github.com/Drey-cf">
-  <center>
-    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Drey-cf&show_icons=true&theme=radical&include_all_commits=true&count_private=true" alt="centered image">
-  </center>
-  <center>  
-    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Drey-cf&layout=compact&langs_count=7&theme=radical"/> 
-  </center>
-</div>
-
-## Reach me 📫
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/andrey-de-campos-francisco/)
-[![Gmail](https://img.shields.io/badge/-andreycampos13@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white&link=mailto:andreycampos13@gmail.com)](mailto:andreycampos13@gmail.com)
+  The other project was made during my course on 'Time Series and NLP', from my Post Graduation. In this second project, I focused on Time Series predictions using different models (Moving Averages, RNN, Decision Tree, ARIMA and TCN). 
+I wanted to build a data pipeline to clean the raw data, train multiple architectures (Moving Averages, ARIMA, Decision Tree, RNN and TCN) and evaluate their performance for the task based on MAE, MSE and correlation for different prediction horizons. So, again, I used Pandas and NumPy to preprocess, clean and prepare the raw time series. Trained models using Scikit-Learn, TensorFlow/Keras and TCN. Created clear data visualizations with Matplotlib to explain the findings.
+Results: All the models are bad for short and medium horizons (correlation <60%). But Moving Averages, Decision Tree and TCN are excellent for long horizons (>90% of correlation).
